@@ -1,0 +1,6 @@
+--Multiple Linear Regression--
+* Dummy variable trap exists after performing a one Hot encoding on a categorical data which provides an n-bit representation of values with n categories. 
+	eg: countrycolumn with3 categories (FR, US, UK) wil be rep as 001, 010, 101 etc. To avoid the dummy variable trap, always eliminate one of the n-new columns generated; usually the first of them.
+	
+* Read about the p-value: https://www.mathbootcamps.com/what-is-a-p-value/  and https://www.wikihow.com/Calculate-P-Value also  https://www.youtube.com/watch?v=-FtlH4svqx4
+  y= b0x0 + b1x1 + b2x2 + ... + bnxn.   set x0 to a matrix of 1s
